@@ -188,4 +188,5 @@ Yes! You can extend the plugin by adding new methods in `class-todo-list.php` or
 ## Support
 
 I just created it for learning purpose 😊.
+
 If you encounter any issues or have suggestions, please feel free to reach out. Happy coding! 🎉
