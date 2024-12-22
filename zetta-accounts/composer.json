@@ -1,0 +1,15 @@
+{
+    "name": "zettabyte/zetta-accounts",
+    "description": "Zetta Accounts is a robust and user-friendly WordPress plugin designed to streamline your accounting and financial management tasks. It provides features such as real-time tracking of income and expenses, accounts payable and receivable, bank reconciliations, and financial reporting-all seamlessly integrated into your WordPress dashboard. Ideal for businesses of all sizes, Zetta Accounts simplifies accounting while ensuring data security and scalability.",
+    "type": "wordpress-plugin",
+    "require": {
+        "monolog/monolog": "^3.8"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Joy, Zettabyte Technology Incorporation"
+        }
+    ],
+    "minimum-stability": "alpha"
+}

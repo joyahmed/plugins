@@ -1,0 +1,147 @@
+.wrap h1 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+/* Form Styling */
+#todo-form {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+#todo-form input {
+	padding: 12px 15px;
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: border-color 0.3s ease-in-out;
+}
+
+#todo-form input:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+#todo-form button {
+	padding: 12px 20px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#todo-form button:hover {
+	background-color: #0056b3;
+}
+
+/* List Styling */
+#todo-list {
+	list-style: none;
+	padding: 0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#todo-list li {
+	padding: 15px;
+	background: #fff;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#todo-list li:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-text {
+	font-size: 16px;
+	font-weight: 500;
+	flex: 1;
+	margin-right: 15px;
+	word-break: break-word;
+}
+
+/* Edit Input */
+.edit-input {
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons Styling */
+button {
+	padding: 8px 12px;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.edit-task {
+	background-color: #28a745;
+	color: #fff;
+	margin-right: 5px;
+}
+
+.edit-task:hover {
+	background-color: #218838;
+}
+
+.save-task {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.save-task:hover {
+	background-color: #0056b3;
+}
+
+.delete-task {
+	background-color: #dc3545;
+	color: #fff;
+}
+
+.delete-task:hover {
+	background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+	#todo-form input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#todo-form {
+		flex-direction: column;
+	}
+
+	#todo-list li {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.task-text {
+		margin-bottom: 10px;
+	}
+}

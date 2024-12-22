@@ -1,0 +1,36 @@
+#todo-form {
+	margin-bottom: 20px;
+}
+
+#todo-form input {
+	padding: 10px;
+	width: 300px;
+	margin-right: 10px;
+}
+
+#todo-form button {
+	padding: 10px 15px;
+}
+
+#todo-list {
+	list-style: none;
+	padding: 0;
+}
+
+#todo-list li {
+	padding: 10px;
+	background: #f9f9f9;
+	margin-bottom: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.edit-input {
+	padding: 5px;
+	width: calc(100% - 80px);
+	margin-right: 10px;
+}
+
+button {
+	margin-left: 5px;
+}
