@@ -1,0 +1,15 @@
+{
+    "name": "joyoffice/zetta-accounts-react",
+    "autoload": {
+        "psr-4": {
+            "Joyoffice\\ZettaAccountsReact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joyahmed",
+            "email": "joy_ahmed_007@yahoo.com"
+        }
+    ],
+    "require": {}
+}
